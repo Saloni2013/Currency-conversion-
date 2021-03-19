@@ -1,0 +1,41 @@
+:root{
+    --primary-color:rgb(139, 34, 52);
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding: 70px;
+}
+h1{
+    color:crimson;
+}
+.btn{
+    background-color:var(--primary-color);
+    cursor:pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: 80px;
+}
+.currency input{
+    border:0;
+    background: transparent;
+    text-align: right;
+    
+}
+.swap-rate container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.rate{
+    color:blue;
+    font-size: 15px;
+}
+.currency{
+    padding:3px;
+}
